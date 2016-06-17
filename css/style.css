@@ -1,15 +1,19 @@
 body {
-    background: steelblue;
+  background: steelblue;
 }
 
 #container {
-    background:white;
-    width: 360px;
-    margin: 0 auto;
+  background:white;
+  width: 360px;
+  margin: 0 auto;
 }
 
 input{
-    width:80%;
-    margin: 0 auto;
+  width:80%;
+  margin: 0 auto;
 }
 
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
