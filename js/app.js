@@ -7,7 +7,7 @@ $("input[type='text'").keypress(function(evt){
     //clears the input text box
     $(this).val("");
     //create a new li and add the text
-    $("ul").append("<li><span>X</span> " + newToDo + "</li>");
+    $("ul").append("<li><i class='fa fa-trash' aria-hidden='true'></i> " + newToDo + "</li>");
   }
 });
 
