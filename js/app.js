@@ -26,3 +26,7 @@ $("ul").on("click", "span", function(evt){
     });
     evt.stopPropagation();
 })
+
+$(".fa-plus").click(function() {
+  $("input[type='text'").fadeToggle();
+})

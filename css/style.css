@@ -1,10 +1,9 @@
 *{
   box-sizing:border-box;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
-
 body {
+  font-family: 'Source Sans Pro', sans-serif;
   background: #1CD8D2;
   background: -webkit-linear-gradient(right, #1CD8D2, #93EDC7);
   background: -o-linear-gradient(right, #1CD8D2, #93EDC7);
@@ -15,7 +14,7 @@ body {
   background:skyblue;
   width: 360px;
   margin: 80px auto;
-  box-shadow: 0 0 3px rgba(0,0,0, 0.9);
+  box-shadow: 0 0 3px rgba(0,0,0, 0.2);
 }
 
 input{
@@ -26,6 +25,7 @@ input{
   background: #f7f7f7;
   font-size: 1.3em;
   color: #2980b9;
+  border: 3px solid rgba( 0,0,0,0);
 }
 
 input:focus {
@@ -80,4 +80,17 @@ ul li:nth-child(2n) {
 
 span {
   background: #e74c3c;
+  height: 40px;
+  margin-right:20px;
+  text-align:center;
+  color:white;
+  width:0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+span:hover {
+  width:40px;
+  opacity: 1.0;
 }
