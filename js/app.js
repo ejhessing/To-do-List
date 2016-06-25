@@ -7,7 +7,7 @@ $("input[type='text'").keypress(function(evt){
     //clears the input text box
     $(this).val("");
     //create a new li and add the text
-    $("ul").append("<li><i class='fa fa-trash' aria-hidden='true'></i> " + newToDo + "</li>");
+    $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + newToDo + "</li>");
   }
 });
 
@@ -25,7 +25,7 @@ $("ul").on("click", "span", function(evt){
         $(this).remove();
     });
     evt.stopPropagation();
-})
+});
 
 $(".fa-plus").click(function() {
   $("input[type='text'").fadeToggle();

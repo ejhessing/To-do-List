@@ -11,28 +11,13 @@ body {
 }
 
 #container {
-  background:skyblue;
+  background:#f7f7f7;
   width: 360px;
   margin: 80px auto;
   box-shadow: 0 0 3px rgba(0,0,0, 0.2);
 }
 
-input{
-  width:100%;
-  margin: 0 auto;
-  padding: 5px 10px 5px 20px;
-  height: 40px;
-  background: #f7f7f7;
-  font-size: 1.3em;
-  color: #2980b9;
-  border: 3px solid rgba( 0,0,0,0);
-}
 
-input:focus {
-  background: white;
-  border: 3px solid #2980b9;
-  outline: none;
-}
 
 .completed {
   color: gray;
@@ -58,7 +43,27 @@ h1{
   margin: 2px 10px 3px;
 }
 
+/* Input Text Box */
 
+input{
+  width:100%;
+  margin: 0 auto;
+  padding: 5px 10px 5px 20px;
+  height: 40px;
+  background: #f7f7f7;
+  font-size: 1.3em;
+  color: #2980b9;
+  border: 3px solid rgba( 0,0,0,0);
+}
+
+input:focus {
+  background: white;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+
+/* List */
 ul{
   list-style-type: none;
   padding-left: 0;
@@ -75,7 +80,7 @@ ul li {
 }
 
 ul li:nth-child(2n) {
-  background:skyblue;
+  background:#f7f7f7;
 }
 
 span {
